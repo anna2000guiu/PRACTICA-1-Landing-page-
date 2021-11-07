@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!--define el idioma-->
+<html lang="es"> 
+  <head>
+     <!--Indica la codificación de caracteres extraños-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <!--Declaración del viewport para no deshabilitar el zoom de la pantalla-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Dreamers Trip</title>
+     <link rel="stylesheet" href="./hojaestilo.css">
+     <!--LOGO EN PESTAÑA NAVEGADOR-->
+     <link rel="icon" href="./imagenes/LOGOCIRCULO.png">
+     <!--ICONO MENÚ HAMBURGUESA-->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <!--ICONO MENÚ HAMBURGUESA-->
+          <i class="fas fa-bars"></i>
+        </label>
+        <!--LOGO-->
+        <img src="./imagenes/LOGOCIRCULO.png" alt="logo blog" class="logo">
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#quienes">Quienes somos?</a></li>
+          <li><a href="#paises">Paises</a></li>
+          <li><a href="#partefotos">Galeria</a></li>
+        </ul>
+      </nav>
+    </header> 
+    <main>
+      <section id="banner">
+        <!--<h2>Banner</h2> El validador recomendaba poner un titulo a la section pero dado que se trata de un banner creemos que no es necesario, asi que lo dejaremos comentado-->
+        <div>
+          <video autoplay muted loop>
+            <source src= "./videos/VIDEOAURORABOREAl.mp4" type="video/mp4">
+          </video>
+        </div>
+      </section>
+     <!--Quienes somos-->
+      <section class= "who">
+        <div id="wrap">
+          <div class="collage">
+            <div class="small_img">
+              <img src="./imagenes/nuit.jpeg" alt="" />
+              <img src="./imagenes/guell.jpeg" alt="" />
+              <img src="./imagenes/classe.jpeg" alt="" />
+              <img src="./imagenes/sagradafamilia.jpeg" alt="" />
+            </div>
+            <div class="medium_img">
+              <img src="./imagenes/atardecer.jpeg" alt="" />
+              <img src="./imagenes/playa.jpeg" alt="" />
+            </div>
+            <div class="small_img">
+              <img src="./imagenes/escalerasmecanicas.jpeg" alt="" />
+              <img src="./imagenes/parque.jpeg" alt="" />
+              <img src="./imagenes/despacho.jpeg" alt="" />
+              <img src="./imagenes/coche.jpeg" alt="" />
+            </div>
+          </div>
+        </div> 
+        <!--titulo de la seccion-->
+        <div class="texto">
+         <h2 class="title" id="quienes">Quienes somos</h2>
+         <h3>Somos Paula y Anna y nos encanta viajar!</h3>
+          <p>
+           Hace unos años que convertimos los viajes en nuestro modo de vida, viajamos por el mundo y te contamos todos los detalles en este blog para que te resulte más fácil planificar tus viajes por libre.
+          </p>
+          <p>
+           Nos encanta aventurarnos a probar lo desconocido, conocer nuevos lugares, personas y maneras de vivir, sentirnos libres, llorar de alegría y quedarnos sin palabras, descubrir olores, sabores y culturas, hacer miles de fotos de cada lugar que pisamos y por supuesto, después contároslo todo en este blog.
+          </p>
+       </div>
+      </section>
+      <section class= "cuadricula">
+        <h2 class="title" id="paises">Paises</h2>
+          <div class="cuadricula-item">
+            <div class="card">
+              <img class="card-img" src="./imagenes/FINLAND.jpg" alt="Finlandia" />
+              <div class="card-content">
+                <h1 class="card-header">Finlandia</h1>
+                <p class="card-text">
+                 Viajar a Finlandia es un sueño para muchos viajeros, sobre todo, cuando hablamos de su fenómeno natural por excelencia: las auroras boreales. Algunas de las mejores auroras boreales se pueden observar al norte de este país.
+                 Finlandia también es conocida como la ‘tierra de los mil lagos’ y es que un 10 por ciento de su territorio lo forman más de 187.000 lagos, incluido el quinto lago más grande de Europa, el lago Saimaa con una superficie de 4.400 km2.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cuadricula-item">
+            <div class="card">
+              <img class="card-img" src="./imagenes/NORWAY.jpg" alt="Noruega"/>
+              <div class="card-content">
+                <h1 class="card-header">Noruega</h1>
+                <p class="card-text">
+                  Noruega es un destino fabuloso para la fotografía de naturaleza. Tiene paisajes que quitan el habla, y una fauna y flora súper nutrida que se va descubriendo a tu paso. Además, tiene dos acontecimientos fascinantes: las auroras boreales y el Sol de Medianoche.
+                  Los veranos en este país suelen ser frescos y aunque hay días de calor no son en absoluto sofocantes. Conviene ir ligeros de ropa pero siempre con alguna prenda de abrigo, especialmente por la noche. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cuadricula-item">
+            <div class="card">
+              <img class="card-img" src="./imagenes/ISLANDIA.jpg" alt="Islandia" />
+              <div class="card-content">
+                <h1 class="card-header">Islandia</h1>
+                <p class="card-text">
+                 Uno de los mejores consejos para viajar a Islandia es hacer una ruta circular por la carretera 1, que da la vuelta completa a la isla y pasa por sus lugares más bonitos.
+                 Si quieres hacer una buena ruta por el país saliendo desde Reikiavik, puedes empezar por la parte sur de la isla visitando el cercano Circulo de Oro.
+                 Si dispones de más tiempo puedes visitar los fiordos del este hasta el pueblo de pescadores de Seyoisfjorour y hacer una excursión al interior de la isla.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class= "Galeria">
+         <!--titulo de la seccion-->
+          <h2 class="title" id="partefotos">Galeria</h2>
+          <div class="grid-container">
+           <div class="grid-item tall" style="background-image: url('https://i.insider.com/5c93b0ccdd08610334374f93?width=700&format=jpeg&auto=webp')"></div>
+           <div class="grid-item" style="background-image: url('https://www.globaltimes.cn/Portals/0/attachment/2021/2021-03-21/a0a66660-084b-4282-a75f-4469c92441dd.jpeg');"></div>
+           <div class="grid-item wide" style="background-image: url('https://www.opulentroutes.com/wp-content/uploads/2021/03/experience-in-finland-1170x658.jpg');"></div>
+           <div class="grid-item" style="background-image: url('https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9c02600-0d5e-467c-aea5-6dc853b25083_960x660.jpeg');"></div>
+           <div class="grid-item" style="background-image: url('https://amp.spotmydive.com/static/db84f0bdb1936eb3434689cfb3ce10e5/14b42/1481807457_fjord-norway-scuva-diving-cover-7.jpg');"></div>
+           <div class="grid-item" style="background-image: url('https://s3.eu-west-1.amazonaws.com/mundy.assets.d3r.com/images/hero_large/76654-norway-cruise-guide-gudvangen.jpg');"></div>
+           <div class="grid-item" style="background-image: url('https://cdn.kimkim.com/files/a/images/1a1e941266ad34259f7952af8b44633aeb2b0467/big-67a126a1cbeb22a775ad8c8b94ee8288.jpg');"></div>
+           <div class="grid-item" style="background-image: url('https://cdn.kimkim.com/files/a/content_articles/featured_photos/9e76018b4dbc115cd4f8a51f0a49a9948a28cb74/big-2d3b3fc973f25a6a9252308e46b35546.jpg')"></div>
+           <div class="grid-item tall wide" style="background-image: url('https://www.planetware.com/photos-large/N/norway-attractions-bryggen-hanseatic-wharf.jpg');"></div>
+           <div class="grid-item" style="background-image: url('https://3m4r5618el913vtfz3jffby9-wpengine.netdna-ssl.com/wp-content/uploads/landmarks-in-norway.jpg');"></div>
+           <div class="grid-item" style="background-image: url('https://www.intelligenttransport.com/wp-content/uploads/Helsinki-1.jpg');"></div>
+           <div class="grid-item" style="background-image: url('https://www.oskuhus.co.uk/wp-content/uploads/2021/05/Beautiful-and-Green-Icelandic-Turf-Houses.jpg');"></div>
+           <div class="grid-item" style="background-image: url('https://europa.eu/europass/sites/default/files/2020-04/Iceland.jpg');"></div>
+           <div class="grid-item" style="background-image: url('https://content.fortune.com/wp-content/uploads/2021/06/GettyImages-1225799378.jpg?resize=750,500');"></div>
+           <div class="grid-item" style="background-image: url('https://www.stuckiniceland.com/wp-content/uploads/2014/04/black-beach-1.png');"></div>
+          </div>
+        </section> 
+     </main>
+    <aside>
+      <!-- Incluye información secundaria del documento -->
+    </aside>
+
+   <!--::::Pie de Pagina::::::-->
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <img src="./imagenes/LOGOFINALBLANCO.png" alt="Logo de SLee Dw">
+          </figure>
+        </div>
+        <div class="box">
+          <h2>SOBRE LA WEB</h2>
+          <p>El contenido de este blog es de nuestra autoría, totalmente real y basado en nuestra experiencia y opinión sincera, sin que ninguna marca haya influido en ella. </p>
+        </div>
+        <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+            <a href="https://www.facebook.com/" class="fab fa-facebook"></a>
+            <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+            <a href="https://twitter.com/" class="fab fa-twitter"></a>
+            <a href="https://www.youtube.com/" class="fab fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+       <small>&copy; 2021 <b>Dreamers Trip</b> - Todos los Derechos Reservados.</small>
+      </div>
+   </footer>
+  </body>
+</html>
+
